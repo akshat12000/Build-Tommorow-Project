@@ -1,2 +1,2 @@
-# Build-Tommorow-Project
+# Build-Tommorrow-Project
 This is the prototype project for the Build-Tommorow Hackathon 
