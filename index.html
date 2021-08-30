@@ -16,13 +16,17 @@
 </head>
 
 <body>
+  <!--- This is the overlay div when it will be active when we will toggle the navbar in mobile device --->
   <div class="overlay againdisp">
   </div>
+  <!--- This the Nav Bar --->
   <div class="main-content">
     <div class="navbar active">
+      <!--- This is the NavBar Brand saying "GatherUp!" ---> 
       <div class="nav-brand">
         <h1>GatherUp!</h1> <span class="mycross fa fa-times againdisp"></span>
       </div>
+      <!--- Nav Items --->
       <div class="nav-items">
         <ul>
           <li><a href="#"><i class="fa fa-bar-chart-o menu"></i>Overview</a></li>
@@ -33,21 +37,25 @@
           <li class="menu-se"><a href="#"><i class="fa fa-gear menu-se-li"></i>Settings</a></li>
         </ul>
       </div>
+      <!--- Log out Option --->
       <div class="nav-log-out">
         <a href="#"><i class="fa fa-sign-out log-li"></i>Log out</a>
       </div>
     </div>
+    <!--- This is the hamburger symbol and it will be active once viewed in mobile device --->
     <div class="hamburger">
       <span id="ham" class="fa fa-bars"></span>
     </div>
     <div class="content">
       <div class="flex-container">
+        <!--- Creating the Search Bar --->
         <div class="search-bar">
           <form class="form-container" action="index.html" method="post">
               <input type="text" name="search" value="" placeholder="Search course, lecture, exam..." autocomplete="off">
               <button class="search-icon fa fa-search" type="submit" name="button"></button>
           </form>
         </div>
+        <!--- Notification and User Icons --->
         <div class="user-disp">
             <a href="#" class="fa fa-bell-o bell-icon"></a>&nbsp;&nbsp&nbsp;
             <a href="#" class="fa fa-user-circle user-icon"></a>
@@ -55,6 +63,7 @@
       </div>
     </div>
   </div>
+  <!--- Footer Part --->
   <footer>
     <div class="ending">
       <i style="color:#f4f4f4; background-color:#8a658f;"class="fa fa-copyright"></i> GatherUp! 2021
