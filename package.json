@@ -1,0 +1,15 @@
+{
+  "name": "educational-website",
+  "version": "1.0.0",
+  "description": "This is the simple education website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/akshat12000/Build-Tomorrow-Project.git"
+  },
+  "author": "Akshat Bhatnagar",
+  "license": "ISC"
+}
